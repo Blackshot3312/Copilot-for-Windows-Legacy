@@ -1,0 +1,16 @@
+﻿<Window x:Class="Copilot_for_Windows_Legacy.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Copilot_for_Windows_Legacy"
+        xmlns:cef="clr-namespace:CefSharp.Wpf;assembly=CefSharp.Wpf"
+        mc:Ignorable="d"
+        Title="Copilot for Windows Legacy" Height="450" Width="800" Icon="Copilot-icon.png" WindowState="Maximized" Background="White">
+    <Window.ContextMenu>
+        <ContextMenu/>
+    </Window.ContextMenu>
+    <Grid>
+        <cef:ChromiumWebBrowser x:Name="WebView" Address="http://copilot.microsoft.com" ForceCursor="True" />
+    </Grid>
+</Window>
