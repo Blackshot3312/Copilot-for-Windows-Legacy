@@ -7,7 +7,6 @@ namespace Copilot_for_Windows_Legacy
         public MainWindow()
         {
             InitializeComponent();
-          
         }
     }
 }

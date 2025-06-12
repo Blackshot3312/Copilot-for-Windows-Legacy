@@ -1,0 +1,29 @@
+﻿<Window x:Class="Copilot_for_Windows_Legacy.AboutWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Copilot_for_Windows_Legacy"
+        mc:Ignorable="d"
+        Title="About" Height="350" Width="500"
+        WindowStartupLocation="CenterOwner"
+        ResizeMode="NoResize"
+        ShowInTaskbar="False">
+    <Grid Margin="15">
+        <!--
+    <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+        <Image Source="/Copilot-icon.png" Width="64" Height="64" Margin="0,0,0,10" />
+        <TextBlock Text="Copilot for Windows Legacy" FontSize="20" FontWeight="Bold" HorizontalAlignment="Center" Margin="0,0,0,10"/>
+        <TextBlock Text="Versão: 0.2 alpha" HorizontalAlignment="Center" Margin="0,0,0,5"/>
+        <TextBlock Text="Client: Oriongate, Copilot: Microsoft" HorizontalAlignment="Center" Margin="0,0,0,5"/>
+        <TextBlock Text="OpenSource program" HorizontalAlignment="Center" Margin="0,0,0,20"/>
+        <TextBlock HorizontalAlignment="Center" Margin="0,0,0,10">
+                <Hyperlink NavigateUri="https://github.com/Blackshot3312/Copilot-for-Windows-Legacy" RequestNavigate="Hyperlink_RequestNavigate">
+                    Github project
+                </Hyperlink>
+        </TextBlock>
+        
+    </StackPanel>
+        -->
+    </Grid>
+</Window>

@@ -25,7 +25,6 @@ namespace Copilot_for_Windows_Legacy
             }
 
             settings.CachePath = cachePath;
-            settings.LogSeverity = LogSeverity.Verbose;
 
             // Inicialize CEF
             if (!Cef.IsInitialized)
